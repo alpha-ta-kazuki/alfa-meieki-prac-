@@ -93,6 +93,8 @@ const app = Vue.createApp({
   }
 })
 
+console.log("Hello World!");
+
 /* 解答入力欄のコンポーネント */
 app.component('answer-input', {
   props: ['correct'],
